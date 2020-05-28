@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: "#DemocraciaNaFaixa"
-image: /img/home-jumbotron.jpg
+image: /img/whatsapp-image-2020-05-28-at-16.26.41-5-.jpeg
 heading: "#DemocraciaNaFaixa"
 subheading: Faça e cole seu lambe contra o genocídio do nosso povo
 mainpitch:
