@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: "#DemocraciaNaFaixa"
-image: /img/home-jumbotron.jpg
+image: /img/bolsonaroladrao.jpeg
 heading: "#DemocraciaNaFaixa1231"
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
