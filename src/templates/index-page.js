@@ -144,6 +144,10 @@ export const IndexPageTemplate = ({
                   <BlogRoll />
                   <br />
                   <p>
+                    Estamos trabalhando incansávelmente para adicionar o maior número 
+                    possível de cartazes. Em breve novos materiais serão postados.
+                  </p>
+                  <p>
                     Faça você também um cartaz. Made seus modelos para{" "}
                     <a href="mailto:democracianafaixa@gmail.com">
                       democracianafaixa@gmail.com
