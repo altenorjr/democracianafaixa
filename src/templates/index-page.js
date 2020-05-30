@@ -53,6 +53,7 @@ export const IndexPageTemplate = ({
               style={{ alignSelf: "center", height: "25px" }}
             />
           </a>
+          {" "}
           <a href="#manifesto">
             <img
               src={nossoManifesto}
@@ -175,7 +176,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <YouTube id="_m80GDA7gLU" />
+                    <YouTube id="uuJUHuWs87s" />
                     <br />
                     <YouTube id="Hb7B5FAVSno" />
                     <br />
