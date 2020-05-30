@@ -97,13 +97,6 @@ export const IndexPageTemplate = ({
                       fazer a indignação das redes sociais chegar no mundo real.
                     </p>
                     <p>
-                      Esse é um manifesto de um povo responsável e consciente,
-                      que sabe que fazer manifestações de rua, agora, seria só
-                      acelerar o genocídio patrocinado por este governo. Propor
-                      carreatas excluiria milhões de brasileiros que não tem
-                      dinheiro nem pra pegar ônibus.
-                    </p>
-                    <p>
                       Se o presidente tem direito de desrespeitar as legislações
                       estaduais e municipais sobre o isolamento social, feitas
                       para salvar vidas, não pode nos reprimir por descumprir
@@ -116,12 +109,12 @@ export const IndexPageTemplate = ({
                     </p>
                     <p>
                       Esse é o primeiro passo da resistência democrática. Fiquem
-                      avisados, seus bandidos:{" "}
+                      avisados, seus bandidos e traidores do povo:{" "}
                       <strong>Nós somos o seu pior pesadelo!</strong> Nós vamos
                       resistir a vocês na linguagem que for necessária, de forma
                       diretamente proporcional ao tamanho da ameaça de vocês. Se
                       vocês tem a cara de pau de soltar nota de ameaça à democracia, 
-                      falando em ruptura institucional, nós cobrimos as ruas com
+                      falando em ruptura institucional, nós cobriremos as ruas com
                       milhões de notas públicas de repúdio.{" "}
                       <span
                         style={{
@@ -133,6 +126,7 @@ export const IndexPageTemplate = ({
                         Vamos ver quem cai primeiro.
                       </span>
                     </p>
+                    <br /><br />
                     <p>
                       <a href="#manifesto">
                         Veja a íntegra do nosso Manifesto abaixo.
