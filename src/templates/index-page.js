@@ -57,6 +57,12 @@ export const IndexPageTemplate = ({
                     >
                       Cole um Cartaz pela Democracia!
                     </h5>
+                    <h5
+                      className="has-text-weight-semibold is-size-2"
+                      style={{ textAlign: "center", fontSize: "20px !important" }}
+                    >
+                      A gente não precisa se aglomerar pra fazer esse desgoverno sair!
+                    </h5>
                     <p>
                       Chegou a hora de agir! Vamos mostrar ao Legislativo e o
                       Judiciário que, se nós não temos medo do Presidente, as
@@ -106,8 +112,8 @@ export const IndexPageTemplate = ({
                       </span>
                     </p>
                     <p>
-                      <a href="#">
-                        <small>Veja a íntegra do nosso Manifesto abaixo.</small>
+                      <a href="#manifesto">
+                        Veja a íntegra do nosso Manifesto abaixo.
                       </a>
                     </p>
                   </div>
@@ -136,11 +142,13 @@ export const IndexPageTemplate = ({
                 <hr />
                 <div className="content" style={{ width: "100%" }}>
                   <p className="tile" style={{ textAlign: "center" }}>
-                    <img
-                      src={nossoManifesto}
-                      alt="Nosso Manifesto"
-                      style={{ alignSelf: "center" }}
-                    />
+                    <a name="manifesto">
+                      <img
+                        src={nossoManifesto}
+                        alt="Nosso Manifesto"
+                        style={{ alignSelf: "center" }}
+                      />
+                    </a>
                   </p>
                 </div>
                 <div className="columns">
@@ -187,13 +195,24 @@ export const IndexPageTemplate = ({
                     </p>
                   </div>
                 </div>
+                <h3>Importante</h3>
                 <p>
                   <strong>
-                    As criadora dos conteúdos acima não são integrantes do nosso
-                    movimento, nem foram informadas de que seus vídeos seriam
-                    utilizados para o nosso propósito. Fica aqui, entretanto, o
-                    convite para que elas se juntem às nossas fileiras.
+                    As criadoras dos conteúdos acima não são integrantes do
+                    nosso movimento, nem foram informadas de que seus vídeos
+                    seriam utilizados para o nosso propósito. Fica aqui,
+                    entretanto, o convite para que elas se juntem às nossas
+                    fileiras. Caso prefiram, podem solicitar a remoção do vídeo
+                    pelo{" "}
+                    <a href="mailto:democracianafaixa@gmail.com">
+                      democracianafaixa@gmail.com
+                    </a>
+                    .
                   </strong>
+                </p>
+                <p style={{ color: "#F00" }}>
+                  Traduzindo para os minions: Não adianta atacá-las, elas não
+                  tem nada a ver com nosso manifesto ;)
                 </p>
               </div>
             </div>
