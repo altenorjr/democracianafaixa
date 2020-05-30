@@ -120,12 +120,13 @@ export const IndexPageTemplate = ({
                       <strong>Nós somos o seu pior pesadelo!</strong> Nós vamos
                       resistir a vocês na linguagem que for necessária, de forma
                       diretamente proporcional ao tamanho da ameaça de vocês. Se
-                      vocês soltam nota de ameaça, nós cobrimos as ruas com
+                      vocês tem a cara de pau de soltar nota de ameaça à democracia, 
+                      falando em ruptura institucional, nós cobrimos as ruas com
                       milhões de notas públicas de repúdio.{" "}
                       <span
                         style={{
                           fontWeight: "bold",
-                          fontSize: "18px",
+                          fontSize: "22px",
                           color: "#F00",
                         }}
                       >
@@ -185,14 +186,16 @@ export const IndexPageTemplate = ({
                     <YouTube id="HsRz_X5d-i0" />
                   </div>
                 </div>
+                <hr />
+                <br /><br />
                 <div className="columns">
                   <div className="column is-12">
-                    <h5
-                      className="has-text-weight-semibold is-size-2"
+                    <h3
+                      className="has-text-weight-semibold"
                       style={{ textAlign: "center" }}
                     >
-                      Aprenda a fazer cola com Arroz
-                    </h5>
+                      Fazendo cola com Arroz de má qualidade
+                    </h3>
                     <YouTube id="LNFsJazdAFg" />
                     <p>
                       Créditos ao Canal da{" "}
@@ -205,12 +208,12 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h5
-                      className="has-text-weight-semibold is-size-2"
+                    <h3
+                      className="has-text-weight-semibold"
                       style={{ textAlign: "center" }}
                     >
                       Aprenda a Colar seu Cartaz
-                    </h5>
+                    </h3>
                     <YouTube id="lF7BwH7fndk" />
                     <p>
                       Créditos ao Canal da{" "}
