@@ -62,7 +62,7 @@ export const IndexPageTemplate = ({
             />
           </a>
         </div>
-        <div className="section" style={{ paddingTop: 0 }}>
+        <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
