@@ -45,7 +45,7 @@ export const IndexPageTemplate = ({
     </section>
     <section className="section section--gradient" style={{ paddingTop: 0 }}>
       <div className="container" style={{ paddingTop: 0 }}>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
           <a href="#cartazes">
             <img
               src={modelosDeCartazes}
