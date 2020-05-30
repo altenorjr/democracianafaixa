@@ -187,8 +187,6 @@ export const IndexPageTemplate = ({
                     <YouTube id="Hb7B5FAVSno" />
                     <br />
                     <YouTube id="6j767RsEu-c" />
-                    <br />
-                    <YouTube id="1mAncBxV8D0" />
                   </div>
                 </div>
                 <hr />
