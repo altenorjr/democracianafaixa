@@ -12,8 +12,8 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>#DemocraciaNaFaixa</title>
+        <meta name="description" content="Cole um Cartaz pela Democracia" />
 
         <link
           rel="apple-touch-icon"
@@ -48,7 +48,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>{children}</div>
       <Footer />
     </div>

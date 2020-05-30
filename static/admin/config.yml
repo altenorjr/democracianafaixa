@@ -24,8 +24,21 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Download Link", name: "downloadlink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "cartazes"
+    label: "Cartazes"
+    folder: "src/pages/cartazes"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cartaz"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Dt. de Publicação", name: "date", widget: "datetime"}
+      - {label: "Descrição", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
 
   - name: "pages"
     label: "Pages"
