@@ -34,16 +34,12 @@ class BlogRoll extends React.Component {
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
                     > */}
-                    {post.frontmatter.title}
+                    <strong>{post.frontmatter.title}</strong>
                     {/* </Link> */}
-                    <span> &bull; </span>
+                    {/* <span> &bull; </span> */}
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  {console.log({ post })}
                   <a
                     className="button"
                     href={post.frontmatter.downloadlink}
@@ -51,8 +47,12 @@ class BlogRoll extends React.Component {
                     download
                     rel="noreferrer"
                   >
-                    Baixar Cartaz &darr;
+                    Baixar para Impressão &darr;
                   </a>
+
+                  <br />
+                  <br />
+                  {post.excerpt}
                 </p>
               </article>
             </div>
@@ -93,7 +93,7 @@ export default () => (
                 downloadlink
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 249, quality: 80) {
+                    fluid(maxWidth: 300, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
