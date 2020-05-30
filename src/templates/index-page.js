@@ -45,15 +45,20 @@ export const IndexPageTemplate = ({
     </section>
     <section className="section section--gradient" style={{ paddingTop: 0 }}>
       <div className="container" style={{ paddingTop: 0 }}>
-        <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            flexWrap: "wrap",
+          }}
+        >
           <a href="#cartazes">
             <img
               src={modelosDeCartazes}
               alt="Modelos de Cartazes"
               style={{ alignSelf: "center", height: "25px" }}
             />
-          </a>
-          {" "}
+          </a>{" "}
           <a href="#manifesto">
             <img
               src={nossoManifesto}
@@ -113,9 +118,10 @@ export const IndexPageTemplate = ({
                       <strong>Nós somos o seu pior pesadelo!</strong> Nós vamos
                       resistir a vocês na linguagem que for necessária, de forma
                       diretamente proporcional ao tamanho da ameaça de vocês. Se
-                      vocês tem a cara de pau de soltar nota de ameaça à democracia, 
-                      falando em ruptura institucional, nós cobriremos as ruas com
-                      milhões de notas públicas de repúdio.{" "}
+                      vocês tem a cara de pau de soltar nota de ameaça à
+                      democracia, falando em ruptura institucional, nós
+                      cobriremos as ruas com milhões de notas públicas de
+                      repúdio.{" "}
                       <span
                         style={{
                           fontWeight: "bold",
@@ -126,7 +132,8 @@ export const IndexPageTemplate = ({
                         Vamos ver quem cai primeiro.
                       </span>
                     </p>
-                    <br /><br />
+                    <br />
+                    <br />
                     <p>
                       <a href="#manifesto">
                         Veja a íntegra do nosso Manifesto abaixo.
@@ -144,16 +151,16 @@ export const IndexPageTemplate = ({
                   <BlogRoll />
                   <br />
                   <p>
-                    Estamos trabalhando incansávelmente para adicionar o maior número 
-                    possível de cartazes. Em breve novos materiais serão postados.
+                    Estamos trabalhando incansávelmente para adicionar o maior
+                    número possível de cartazes. Em breve novos materiais serão
+                    postados.
                   </p>
                   <p>
-                    Faça você também um cartaz. Made seus modelos para{" "}
-                    <a href="mailto:democracianafaixa@gmail.com">
-                      democracianafaixa@gmail.com
-                    </a>{" "}
-                    e nós os colocaremos diretamente aqui no site.
-                    #JuntosSomosMaisFortes
+                    Faça você também um cartaz. Mande seus modelos pelo{" "}
+                    <a href="https://join.slack.com/t/democracianafaixa/shared_invite/zt-eqmm5h8y-dkYeDPsOQL__6Z3mt7KYJQ">
+                      grupo do Slack
+                    </a>
+                    e nós os colocaremos diretamente aqui no site. <br /> #JuntosSomosMaisFortes
                   </p>
                   {/* <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
@@ -185,7 +192,8 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <hr />
-                <br /><br />
+                <br />
+                <br />
                 <div className="columns">
                   <div className="column is-12">
                     <h3
@@ -240,6 +248,28 @@ export const IndexPageTemplate = ({
                   Traduzindo para os minions: Não adianta atacá-las, elas não
                   tem nenhuma ligação com nosso movimento ;)
                 </p>
+                <div className="columns">
+                  <div className="column is-12">
+                    <br />
+                    <br />
+                    <h1
+                      className="has-text-weight-semibold"
+                      style={{ textAlign: "center" }}
+                    >
+                      Toda ajuda é necessária! Todos os braços aptos as bordo!
+                    </h1>
+                    <p>
+                      Precisamos de ajuda de programadores, designers e
+                      profissionais de mídias digitais para ajudar a tocar esse
+                      projeto com a gente. Precisamos de ajuda para organizar os
+                      nossos esforços e fazer esta campanha decolar. Se você
+                      quer participar,{" "}
+                      <a href="https://join.slack.com/t/democracianafaixa/shared_invite/zt-eqmm5h8y-dkYeDPsOQL__6Z3mt7KYJQ">
+                        entra no nosso grupo do Slack para mais informações
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
