@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import logo from "../img/panel.png";
+import panel from "../img/panel.png";
 import nossoManifesto from "../img/nosso-manifesto.png";
 import modelosDeCartazes from "../img/modelos-de-cartazes.png";
 import YouTube from "react-youtube-embed";
@@ -20,10 +20,10 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
+    {/* <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${logo})`,
+        backgroundImage: `url(${panel})`,
         backgroundPosition: `center top`,
         backgroundAttachment: `fixed`,
         backgroundSize: "682px 304px",
@@ -33,29 +33,37 @@ export const IndexPageTemplate = ({
       }}
     >
       &nbsp;
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
+    </div> */}
+    <section
+      className="section section--gradient"
+      style={{ textAlign: "center", paddingBottom: 0 }}
+    >
+      <img
+        src={panel}
+        style={{ width: "100%", height: "auto", maxWidth: "682px" }}
+      />
+    </section>
+    <section className="section section--gradient" style={{ paddingTop: 0 }}>
+      <div className="container" style={{ paddingTop: 0 }}>
+        <div className="section" style={{ paddingTop: 0 }}>
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                {" "}
                 <div className="columns">
                   <div className="column is-12">
-                    <h3
+                    <h5
                       className="has-text-weight-semibold is-size-2"
                       style={{ textAlign: "center" }}
                     >
                       Cole um Cartaz pela Democracia!
-                    </h3>
+                    </h5>
                     <p>
                       Chegou a hora de agir! Vamos mostrar ao Legislativo e o
                       Judiciário que, se nós não temos medo do Presidente, as
                       instituições republicanas também não deveriam temer.
                     </p>
                     <p>
-                      Baixe um dos cartazes abaixo e cole em Postes, Viadutos,
+                      Baixe os cartazes abaixo e cole em Postes, Viadutos,
                       Passarelas e outros logradouros públicos. Mesmo que não
                       possamos fazer protestos de rua, vamos colar nossos gritos
                       em milhões de cartazes pelas cidades. Já passou da hora de
@@ -110,6 +118,15 @@ export const IndexPageTemplate = ({
                     <img src={modelosDeCartazes} alt="Modelos de Cartazes" />
                   </h3>
                   <BlogRoll />
+                  <br />
+                  <p>
+                    Faça você também um cartaz. Made seus modelos para{" "}
+                    <a href="mailto:democracianafaixa@gmail.com">
+                      democracianafaixa@gmail.com
+                    </a>{" "}
+                    e nós os colocaremos diretamente aqui no site.
+                    #JuntosSomosMaisFortes
+                  </p>
                   {/* <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
                       Read more
@@ -135,11 +152,63 @@ export const IndexPageTemplate = ({
                     <YouTube id="Gc_uYb8_I5I" />
                   </div>
                 </div>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h5
+                      className="has-text-weight-semibold is-size-2"
+                      style={{ textAlign: "center" }}
+                    >
+                      Aprenda a fazer cola com Arroz
+                    </h5>
+                    <YouTube id="LNFsJazdAFg" />
+                    <p>
+                      Créditos ao Canal da{" "}
+                      <a href="https://www.youtube.com/channel/UC-FgUxlba2czcx1B66YiWmA">
+                        Márcia Cris no Youtube
+                      </a>
+                      .
+                    </p>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h5
+                      className="has-text-weight-semibold is-size-2"
+                      style={{ textAlign: "center" }}
+                    >
+                      Aprenda a Colar seu Cartaz
+                    </h5>
+                    <YouTube id="lF7BwH7fndk" />
+                    <p>
+                      Créditos ao Canal da{" "}
+                      <a href="https://www.youtube.com/channel/UCvnkEtGJjOEXlX1G4XTalzw">
+                        Ana Tatit no Youtube
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  <strong>
+                    As criadora dos conteúdos acima não são integrantes do nosso
+                    movimento, nem foram informadas de que seus vídeos seriam
+                    utilizados para o nosso propósito. Fica aqui, entretanto, o
+                    convite para que elas se juntem às nossas fileiras.
+                  </strong>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <section
+      className="section section--gradient"
+      style={{ textAlign: "center" }}
+    >
+      <img
+        src={panel}
+        style={{ width: "100%", height: "auto", maxWidth: "682px" }}
+      />
     </section>
   </div>
 );

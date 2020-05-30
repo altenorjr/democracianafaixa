@@ -14,5 +14,5 @@ tags:
 
 Espalhe esse cartaz nas imediações de quartéis do exército e das polícias militares.
 Já passou da hora de mostrar para quem tem arma na mão que deles se exige o estrito
-cumprimento da lei. Vamos lembrar aos militares que eles são nossos funcionários, e
-não o contrário.
+cumprimento da lei. É simples: Quem escolhe ter direito de ter canhão abre mão do direito
+à opinião. Vamos lembrar aos militares que eles são nossos funcionários, não o contrário.
