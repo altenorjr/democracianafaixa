@@ -45,6 +45,22 @@ export const IndexPageTemplate = ({
     </section>
     <section className="section section--gradient" style={{ paddingTop: 0 }}>
       <div className="container" style={{ paddingTop: 0 }}>
+        <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <a href="#cartazes">
+            <img
+              src={modelosDeCartazes}
+              alt="Modelos de Cartazes"
+              style={{ alignSelf: "center", height: "25px" }}
+            />
+          </a>
+          <a href="#manifesto">
+            <img
+              src={nossoManifesto}
+              alt="Nosso Manifesto"
+              style={{ alignSelf: "center", height: "25px" }}
+            />
+          </a>
+        </div>
         <div className="section" style={{ paddingTop: 0 }}>
           <div className="columns">
             <div className="column is-10 is-offset-1">
@@ -57,12 +73,16 @@ export const IndexPageTemplate = ({
                     >
                       Cole um Cartaz pela Democracia!
                     </h5>
-                    <h5
-                      className="has-text-weight-semibold is-size-2"
-                      style={{ textAlign: "center", fontSize: "20px !important" }}
+                    <p
+                      className="has-text-weight-semibold"
+                      style={{
+                        textAlign: "center",
+                        fontSize: "20px",
+                      }}
                     >
-                      A gente não precisa se aglomerar pra fazer esse desgoverno sair!
-                    </h5>
+                      A gente não precisa se aglomerar pra fazer esse desgoverno
+                      sair!
+                    </p>
                     <p>
                       Chegou a hora de agir! Vamos mostrar ao Legislativo e o
                       Judiciário que, se nós não temos medo do Presidente, as
@@ -120,9 +140,11 @@ export const IndexPageTemplate = ({
                 </div>
                 <hr />
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    <img src={modelosDeCartazes} alt="Modelos de Cartazes" />
-                  </h3>
+                  <a name="cartazes">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      <img src={modelosDeCartazes} alt="Modelos de Cartazes" />
+                    </h3>
+                  </a>
                   <BlogRoll />
                   <br />
                   <p>
@@ -153,11 +175,13 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <YouTube id="GlkJXa5Epy0" />
+                    <YouTube id="_m80GDA7gLU" />
                     <br />
-                    <YouTube id="G4CU6wk9D50" />
+                    <YouTube id="Hb7B5FAVSno" />
                     <br />
-                    <YouTube id="Gc_uYb8_I5I" />
+                    <YouTube id="6j767RsEu-c" />
+                    <br />
+                    <YouTube id="HsRz_X5d-i0" />
                   </div>
                 </div>
                 <div className="columns">
