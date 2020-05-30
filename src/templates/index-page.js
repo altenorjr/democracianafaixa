@@ -256,7 +256,7 @@ export const IndexPageTemplate = ({
                       className="has-text-weight-semibold"
                       style={{ textAlign: "center" }}
                     >
-                      Toda ajuda é necessária! Todos os braços aptos as bordo!
+                      Toda ajuda é necessária! Todos os braços aptos a bordo!
                     </h1>
                     <p>
                       Precisamos de ajuda de programadores, designers e
