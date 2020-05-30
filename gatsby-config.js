@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: '#DemocraciaNaFaixa',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Chegou a hora de agir! Vamos mostrar ao Legislativo e o Judiciário que, se nós não temos medo do Presidente, as instituições republicanas também não deveriam temer.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
