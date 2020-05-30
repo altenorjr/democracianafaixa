@@ -212,7 +212,7 @@ export const IndexPageTemplate = ({
                 </p>
                 <p style={{ color: "#F00" }}>
                   Traduzindo para os minions: Não adianta atacá-las, elas não
-                  tem nada a ver com nosso manifesto ;)
+                  tem nenhuma ligação com nosso movimento ;)
                 </p>
               </div>
             </div>
