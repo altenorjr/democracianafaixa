@@ -12,5 +12,8 @@ tags:
 ---
 ![](/img/cartazes/prefeito-manaus-bosta.png)
 
-Use este cartaz para avisar pro seu bairro que o atual Presidente da República
-é um Bandido!
+O presidente acha que está morrendo pouca gente em Manaus e que as covas
+coletivas são um exagero do prefeito. A gente pode até não gostar do 
+prefeito, mas as declarações do presidente são um ataque direto ao povo
+da nossa cidade. Vamos mostrar pra todo o país que a gente não tolera 
+mais o desrespeito e o descaso.

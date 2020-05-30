@@ -51,7 +51,7 @@ class BlogRoll extends React.Component {
                     download
                     rel="noreferrer"
                   >
-                    Baixar Arquivo em Alta Definição &darr;
+                    Baixar Cartaz &darr;
                   </a>
                 </p>
               </article>
